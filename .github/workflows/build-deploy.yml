@@ -26,4 +26,4 @@ jobs:
     - name: Instalación surge
       run: npm install --global surge
     - name: Deployar app
-      run: surge ./dist ${{vars.SURGE_URL}} --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./dist ${{vars.URL_SURGE}} --token ${{secrets.SURGE_TOKEN}}
